@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>110</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>War
+--
++ player: list(string)
++ deck: function
+--
++ dealer()
++ play(istied = None): String
++ playf()
++ show_winner()
++ finished(): Integer
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

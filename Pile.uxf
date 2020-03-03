@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>230</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Pile
+--
++cards:list
++join: string
+--
++add_card(card)
++take_top()
++add_all(cards)
++has_cards():bool
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
